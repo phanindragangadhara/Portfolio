@@ -1,0 +1,116 @@
+{% load static %}
+<!--
+<h3>Hello World!!</h3>
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phanindra Gangadhara</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" typr="text/css">
+    <link rel="icon" href="{% static 'images/phanindra.png'%}" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" 
+                 id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/phanindra.png'%}">
+                    <hr>
+                    <h4>
+                        Hi I'm Phanindra!!
+                    </h4>
+                    <p>Recent graduate actively seeking opportunities to apply and grow my skills.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100">
+                    <h4>Internship Experience & Social Links</h4>
+                    <hr>
+                    <p>I am a Computer Science graduate with a passion for automation, machine learning, and backend development. During my internship at Frontlines Media, I automated workflows across platforms like Zoom, Google Events, and WATI using N8N, significantly reducing manual tasks. I’ve built projects like a Smart Telegram Bot that schedules Google Calendar events using natural language and an SMS Spam Classifier with machine learning.
+                    </p>
+                    <p>I'm proficient in Python, Django, Flask, and REST APIs, and I’ve solved over 250 coding problems on LeetCode and HackerRank. I also hold a Google Cybersecurity Certificate and completed a virtual internship with Palo Alto Networks.</p>
+                <ul class="social-links">
+                    <li><img class="social" src="{% static 'images/linkedin.png'%}" alt=""></li>
+                    <li>https://www.linkedin.com/in/phanindragangadhara</li>
+                    <br>
+                    <li><img class="social" src="{% static 'images/github.png'%}" alt=""></li>
+                    <li>https://github.com/phanindragangadhara</li>
+                    <br>
+                    <li><img class="social" src="{% static 'images/gmail.png'%}" alt=""></li>
+                    <li>phanindragangadhara@gmail.com</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Skills</h5>
+                    <hr>
+                    <p>
+                       I have a strong foundation in programming, with proficiency in Python, C, and JavaScript. I'm particularly skilled in backend development using Django and Flask, and I’ve also worked with RESTful APIs, SQL, and Node.js. On the frontend, I’m comfortable with HTML, CSS, and Bootstrap, allowing me to build full-stack applications. I have hands-on experience in automation using N8N, which I used extensively during my internship to streamline workflows across platforms like Zoom and Google Events. I’m also skilled in data handling and analysis with libraries like NumPy and Pandas, and I’ve applied machine learning concepts using Scikit-learn. 
+                    </p>
+                    <p>
+                        I enjoy solving algorithmic problems and have solved over 250 coding challenges on LeetCode and HackerRank, which has strengthened my problem-solving and DSA skills. I'm familiar with tools like Git, GitHub, Postman, and VS Code, and I continuously work on enhancing my technical skills to stay updated and build impactful solutions.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Education</h5>
+                    <hr>
+                    <p>
+                        I completed my B.Tech in Computer Science and Engineering from Jayamukhi Institute of Technological Sciences (affiliated with JNTUH) in 2024 with a CGPA of 7.63. Before that, I earned a Diploma in Civil Engineering from Government Polytechnic College, Nalgonda, in 2020 with 65.11%. I passed SSC from Alpha Public School in 2017 with a CGPA of 9.7.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Achievements</h5>
+                    <hr>
+                    <p>
+                        I have solved over 250 coding problems on LeetCode and HackerRank, strengthening my problem-solving and algorithmic thinking.
+                    </p>
+                    <p>
+                        I earned the Google Cybersecurity Certificate and completed an AI–Data Scientist certification from the Andhra Pradesh Productivity Council.
+                    </p>
+                    <p>
+                        Additionally, I completed a 10-week virtual internship with Palo Alto Networks, focusing on cybersecurity fundamentals.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>Projects</h5>
+                    <hr>
+                    <p>I have worked on multiple projects that showcase my skills in automation, machine learning, and web development. One of my key projects is the SMS Spam Classifier, where I built a machine learning model using Scikit-learn, Pandas, and regular expressions to classify text messages as spam or ham. I performed data cleaning, preprocessing, visualization with Matplotlib, and implemented various ML algorithms for classification.
+                    </p>
+                    <p>
+                        Another major project is the Smart Telegram Bot for Automated Scheduling, where I used N8N, Google Calendar API, and OpenAI to build a bot that allows users to schedule events by sending natural language messages on Telegram. I integrated OAuth 2.0, AI memory for user context, and enabled multi-account calendar support to enhance flexibility and user experience.
+                    </p>
+                    <p>
+                        Additionally, I created a personal portfolio website using HTML, CSS, and Bootstrap to showcase my skills, achievements, and projects. It serves as a digital resume and demonstrates my frontend development abilities.
+                    </p>
+                    <p>
+                        These projects reflect my ability to work across different technologies, apply automation tools, and build intelligent solutions that solve real-world problems efficiently.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    <br>
+    </div>
+</body>
+
+</html>
